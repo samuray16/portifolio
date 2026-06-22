@@ -1,0 +1,29 @@
+.card{ 
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+     padding: 10px;
+     background-color: black;
+     border-radius: 10px;
+     box-shadow: 10px 10px 10px  rgba(229, 8, 8, 0.84);
+   
+     
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 100px;
+    
+}
+.card{
+    height: 500px;
+    width: 500px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
