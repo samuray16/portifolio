@@ -1,30 +1,10 @@
 .imagem{
     width: 250px;
-    height: 2500px;
+    height: 200px;
     border-radius: 10px;
     border: solid 5px rgb(124, 15, 15);
     overflow: hidden;
 
-}
-.aba{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 300px;
-    background-color:rgb(112, 14, 14);
-    color: white;
-    padding: 15px;
-    box-sizing: border-box;
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.3s ease;
-    margin: 0px 0px 300px 700px;
-    border-radius: 15px;
-
-}
-.card:hover .aba{
-    opacity: 0;
-    visibility: visible;
 }
 
  
