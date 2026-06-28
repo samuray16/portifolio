@@ -1,8 +1,27 @@
 body{
-    background-image: url(../imagens/fundo-teste.jpg);
+    background-image: url(../imagens/fundo-preto1.jpg);
      background-size: cover;
     background-attachment: fixed;
     background-size: 1400px 1000px;
    
     
 }
+html {
+    scroll-behavior: smooth;
+    
+}
+
+
+section {
+    scroll-margin-top:110px ; 
+    margin-top: 250px;
+    margin-bottom: 50px;
+    padding: 0;
+  
+    
+}
+h2,p{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+

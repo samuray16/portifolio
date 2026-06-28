@@ -6,8 +6,37 @@
     overflow: hidden;
 
 }
-
- 
- 
+.perfil{
+    height: 400px;
+    width: 300px;
+    
+}
+.foto-perfil{
+  margin-left: 200px;
+  margin-top: -200px;
   
+}
+.perfil{
+    border-radius: 10px;
+    border: solid 5px red;
+}
+.perfil:hover{
+  transform: scale(1.08);
+}
+
+.imagem1{
+    display: inline-block;
+}
+.imagem1{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.conteudo1, .conteudo2{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
     
