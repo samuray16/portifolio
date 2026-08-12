@@ -1,19 +1,16 @@
 body{
-    background-image: url(../imagens/fundo-preto1.jpg);
-     background-size: cover;
-    background-attachment: fixed;
-    background-size: 1400px 1000px;
+    background-image: linear-gradient(to left, rgb(9, 9, 9), rgb(15, 14, 14), rgb(20, 19, 19));
+   background-size: 500% 100%;
    
     
 }
-html {
-    scroll-behavior: smooth;
-    
+.comeco{
+    margin-top: 260px;
 }
 
 
 section {
-    scroll-margin-top:110px ; 
+   scroll-behavior: smooth;
     margin-top: 250px;
     margin-bottom: 50px;
     padding: 0;
@@ -24,4 +21,12 @@ h2,p{
     margin-top: 0;
     margin-bottom: 10px;
 }
+html{
+    scroll-behavior: smooth;
+    margin-top: 10px;
+   
+}
 
+.cubo{
+    margin-top: 100px;
+}

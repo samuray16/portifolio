@@ -1,10 +1,17 @@
 .titulo{
-    text-align: center;
+   display: flex;
+   justify-content: center;
+   margin-top: -150px;
     font-size: 80px;
-  -webkit-text-fill-color: red;
-    
+    color: red;
 }
-
+.titulo2, .titulo3{
+     display: flex;
+   justify-content: center;
+   margin-top: -30px;
+    font-size: 80px;
+    color: red;
+}
 
 
 .menu-lista a.texto {
@@ -33,6 +40,7 @@
     display: flex;
     justify-content: center; 
     gap: 30px; 
+   
 }
 .texto-perfil {
     width: 300px;              
@@ -62,12 +70,14 @@
 }
 .descricao3{
     color: white;
-    font-size: 23px;
+    font-size: 25px;
     margin-top: -60px;
-    background-color: #121212;
-    height: 300px;
-    width: 1000px;
+    height: 350px;
+    width: 600px;
     overflow: hidden;
+    border: solid 5px red;
+    border-radius: 3px;
+   
     
 }
 
