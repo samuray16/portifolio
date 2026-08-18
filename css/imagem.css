@@ -1,42 +1,38 @@
 .imagem{
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-    border: solid 5px rgb(124, 15, 15);
-    overflow: hidden;
+    width: 29vh;
+    height: 23vh;
+    border-radius: 6%;
+    border: solid 5px rgb(161, 156, 156);
+   
 
 }
 .perfil{
-    height: 400px;
-    width: 300px;
+    height: 55vh;
+    width: 40vh;
+    border-radius: 3%;
     
 }
 .foto-perfil{
-  margin-left: 200px;
-  margin-top: -200px;
+  margin-left: 17%;
+  margin-top: -10%;
   
 }
-.perfil{
-    border-radius: 10px;
-   border: solid 5px  red;
-}
-.perfil:hover{
-  transform: scale(1.08);
-}
+
+
 
 .imagem1{
     display: inline-block;
 }
 .imagem1{
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
+    width: 20%;
+    height: 20%;
+   
     overflow: hidden;
 
 }
 .conteudo1, .conteudo2{
-    margin-top: 150px;
-    margin-left: 200px;
+    margin-top: 10%;
+    margin-left: 3%;
 }
 
     
