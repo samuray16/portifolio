@@ -25,7 +25,7 @@
     font-weight: bold;
     text-transform: uppercase; 
     padding: 5% 3% 5% 5%;
-    border-radius: 7%;
+    border-radius: 20px;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
@@ -60,25 +60,26 @@
     text-align: center;
 }
 .descricao1, .descricao2{
-     width:15%;              
+     width: 20%;              
     height: 20%;
-    margin-bottom: 4%;               
+                 
     padding: 1%;
     color: white;           
     box-sizing: border-box;    
     display: flexbox;
     align-items: center;
-    margin-left: 6%;
+    margin-left: 2%;
     text-align: center;
-    font-size: 105%;
+    font-size: 165%;
     display: inline-block;
 }
 .descricao3{
     color: white;
-    font-size: 130%;
-    margin-top: -15%;
+    font-size: 140%;
+    margin-top: -14%;
+    margin-left: 20%;
     height: 35%;
-    width: 600%;
+    width: 700%;
     
 }
 .descricao3:hover{
@@ -95,4 +96,22 @@ a{
 h3:hover{
     transition: 1s;
     background-color: antiquewhite;
+}
+.contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    color: white;
+    font-size: 150%;
+    gap: 5%;
+}
+.link{
+    transition: color 0.5 ease;
+}
+.link :hover{
+    background-color: white;
+    border-radius: 20px;
+   cursor: pointer;
+   
 }
