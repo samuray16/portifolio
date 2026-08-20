@@ -60,20 +60,22 @@
     text-align: center;
 }
 .descricao1, .descricao2{
-     width: 25%;              
-    height: 32%;               
-    padding: 2%;
+     width:15%;              
+    height: 20%;
+    margin-bottom: 4%;               
+    padding: 1%;
     color: white;           
     box-sizing: border-box;    
     display: flexbox;
     align-items: center;
+    margin-left: 6%;
     text-align: center;
-    font-size: 165%;
+    font-size: 105%;
     display: inline-block;
 }
 .descricao3{
     color: white;
-    font-size: 160%;
+    font-size: 130%;
     margin-top: -15%;
     height: 35%;
     width: 600%;
