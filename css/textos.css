@@ -39,6 +39,15 @@
     border-radius: 30px;
 
 }
+.insta{
+    color: palevioletred;
+}
+.cont{
+    color: greenyellow;
+}
+.mail{
+    color: yellow;
+}
 
 .descricao1, .descricao2{
      width: 20%;              
