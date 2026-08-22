@@ -19,45 +19,70 @@
     gap: 100%;
     
 }
-.card{
-    height: 30%;
-    width: 60%;
-    margin-top: 23%;
-    margin-right: 2%;
-}
-.card{
+.card-habilidade {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 }
-.container {
-    display: flex;
-    align-items: center;        
-    justify-content: center;    
-    gap: 3%;  
-    margin: -300px 0px 0px 40px;
-    
+.grid-habilidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 30px;
 }
 
-.pagina1{
+.container-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 30px;
+}
+.card {
     background-color: #0f172a;
-   max-width: 100%;
-   height: 1050%;
-   margin-top: 60%;
- 
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
 }
-.pagina0{
-    background-color: #1e293b;
-    margin-top: -18%;
-    max-width: 100%;;
-    height: 300%;
-  
+.card:hover {
+    transform: translateY(-5px);
 }
-.pagina3{
-   
-    margin-top: -35%;
-     height: 850%;
-     max-width: 100%;
-    background-color: #223a6c;
-   
+
+.card .imagem {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
 }
+
+.card .descricao {
+    font-size: 0.95rem;
+    color: #cbd5e1;
+}
+
+.pagina {
+    min-height: 100vh;
+    padding: 100px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina0 { background-color: #1e293b; }
+.pagina1 { background-color: #0f172a; }
+.pagina3 { background-color: #223a6c; }

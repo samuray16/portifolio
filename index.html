@@ -1,100 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu Portfólio - Samuray Campos</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/card.css">
     <link rel="stylesheet" href="./css/imagem.css">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/textos.css">
 </head>
 <body>
-      <div class="pagina0" >
-      <section id="conteudo1" >
-      <h1 class="titulo">Meu Portfólio</h1>
-             <nav>
-                 <ul class="menu-lista">
-                    <li><a class="texto" href="#conteudo1">início</a></li> 
-                    <li><a class="texto" href="#conteudo2">habilidades</a></li> 
-                    <li><a class="texto" href="#conteudo3">projetos</a></li> 
-                </ul>
-            </nav>
-             <div class="contato">
-                    <p>Contato: 11 96148-1928</p>
-                    <p  class="link" ><a href="https://github.com/samuray16"> Github</a></bu</p>
-                    <p>E-mail: samuraycampos8@gmail.com</p>
-                 </div>
+
+    <header class="header">
+        <nav>
+            <ul class="menu-lista">
+                <li><a class="texto" href="#conteudo1">Início</a></li> 
+                <li><a class="texto" href="#conteudo2">Habilidades</a></li> 
+                <li><a class="texto" href="#conteudo3">Projetos</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="conteudo1" class="pagina pagina0">
+            <h1 class="titulo">Meu Portfólio</h1>
+            
+            <div class="contato">
+                <p>Contato: (11) 96148-1928</p>
+                <p class="link"><a href="https://github.com/samuray16" target="_blank">GitHub</a></p>
+                <p>E-mail: samuraycampos8@gmail.com</p>
+            </div>
+
             <div class="comeco">
-            <div class="foto-perfil">
-                <img class="perfil" src="./imagens/ChatGPT Image 2 de jan. de 2026, 00_03_42~2.jpg" >
+                <div class="foto-perfil">
+                    <img class="perfil" src="./imagens/ChatGPT Image 2 de jan. de 2026, 00_03_42~2.jpg" alt="Foto de perfil de Samuray Campos">
+                </div>
+                <div class="texto-perfil">
+                    <p class="descricao3">
+                        Samuray Campos, desenvolvedor Web front-end, cursando o primeiro ano do curso de Desenvolvimento de Sistemas na ETEC Cidade Tiradentes. Conhecido pela entrega de trabalhos dentro do prazo, habilidoso, prestativo, pontual e atento a cada detalhe. Ótimo em trabalho em equipe e muito responsável.
+                    </p>
+                </div>
             </div>
-            <div class="container">
-            <div class="texto-perfil">
-                <p class="descricao3">Samuray Campos, desenvolvedor Web front-end, cursando o primeiro ano do curso de Desenvolvimento de Sistemas, na Etec Cidade Tiradentes. Conhecido pela entrega de trabalhos dentro do prazo, habilidoso, prestativo, pontual e atento a cada detalhe. Otimo em trablho em equipe e muito responsável.
-            </div>
-            </div>
-            </div>
-         </section>
+        </section>
 
-        <div class="pagina1" >
-            <section id="conteudo2">
-                <h2 class="titulo2">HABILIDADES</h2>
-                    <nav>
-                 <ul class="menu-lista">
-                    <li><a class="texto" href="#conteudo1">início</a></li> 
-                    <li><a class="texto" href="#conteudo3">projetos</a></li>
-                </ul>
-                   </nav>
-                 <div class="conteudo2">
-                <img class="imagem1" src="./imagens/fundo-html.jpg" alt="">
-                    <p class="descricao1">Conhecimento em HTML para estruturação de páginas web, utilização de tags semânticas, formulários, tabelas e organização de conteúdo, seguindo boas práticas de desenvolvimento.</p>
-                <img class="imagem1" src="./imagens/fundo-css.jpg" >
-                 <p class="descricao2">CSS: Conhecimento em estilização de páginas web, criação de layouts responsivos, utilização de Flexbox e Grid, além de desenvolvimento de interfaces modernas e organizadas.</p>
-              </div>
-         </section> 
-        </div>
+        <section id="conteudo2" class="pagina pagina1">
+            <h2 class="titulo-secao">HABILIDADES</h2>
+            <div class="grid-habilidades">
+                <div class="card-habilidade">
+                    <img class="imagem-hab" src="./imagens/fundo-html.jpg" alt="Logo HTML">
+                    <p class="descricao-hab">Conhecimento em HTML para estruturação de páginas web, utilização de tags semânticas, formulários, tabelas e organização de conteúdo, seguindo boas práticas de desenvolvimento.</p>
+                </div>
+                <div class="card-habilidade">
+                    <img class="imagem-hab" src="./imagens/fundo-css.jpg" alt="Logo CSS">
+                    <p class="descricao-hab">CSS: Conhecimento em estilização de páginas web, criação de layouts responsivos, utilização de Flexbox e Grid, além de desenvolvimento de interfaces modernas e organizadas.</p>
+                </div>
+            </div>
+        </section> 
 
-        <div class="pagina3">
-          <section id="conteudo3">
-                <h2 class="titulo3">PROJETOS</h2>
-                 <nav>
-                 <ul class="menu-lista">
-                    <li><a class="texto" href="#conteudo1">início</a></li> 
-                </ul>
-                   </nav>
-                    <div class="container">
-                    <div class="card">
-                         <img class="imagem" src="./imagens/capa-carros.jpg" alt="card imagem">
-                         <p class="descricao">Carros Antigos</p>
-                         <p class="descricao">Alguns modelos de carros antigos, ficha tecnica e curiosidades</p>
-                         <a href=" https://samuray16.github.io/atcarro/"><h3>Conhecer Mais</h3></a>
-                    </div>
-
-                    <div class="card">
-                         <img class="imagem" src="./imagens/fundo-musica.jpg" alt="card imagem">
-                         <p class="descricao">Playlist de Músicas</p>
-                         <p class="descricao">uma Playlist com músicas variaveis de modo interativo</p>
-                         <a href=" https://samuray16.github.io/atplaylist/"><h3>Conhecer Mais</h3></a>
-                   </div>
        
-                   <div class="card">
-                       <img class="imagem" src="./imagens/fundo-viagens.jpg" alt="card imagem">
-                       <p class="descricao">Viagens</p>
-                       <p class="descricao">Os melhores lugares para conhecer belas paisagens e culturas</p>
-                       <a href=" https://samuray16.github.io/atvisgens/"><h3>Conhecer Mais</h3></a>
-                   </div>
-       
-                   <div class="card">
-                       <img class="imagem" src="./imagens/fundo-curriculo.jpg" alt="card imagem">
-                       <p class="descricao">Currículo</p>
-                       <p class="descricao">Meu currículo com minhas habilidades e dados pessoais</p>
-                       <a href=" https://samuray16.github.io/atcurriculo/"><h3>Conhecer mais</h3></a>
-                  </div>
-                 </div>
-               
-           </section> 
-        </div>
+        <section id="conteudo3" class="pagina pagina3">
+            <h2 class="titulo-secao">PROJETOS</h2>
+            <div class="container-cards">
+                <div class="card">
+                    <img class="imagem" src="./imagens/capa-carros.jpg" alt="Projeto Carros Antigos">
+                    <h3>Carros Antigos</h3>
+                    <p class="descricao">Alguns modelos de carros antigos, ficha técnica e curiosidades.</p>
+                    <a href="https://samuray16.github.io/atcarro/" target="_blank" class="btn-link">Conhecer Mais</a>
+                </div>
+
+                <div class="card">
+                    <img class="imagem" src="./imagens/fundo-musica.jpg" alt="Projeto Playlist">
+                    <h3>Playlist de Músicas</h3>
+                    <p class="descricao">Uma Playlist com músicas variáveis de modo interativo.</p>
+                    <a href="https://samuray16.github.io/atplaylist/" target="_blank" class="btn-link">Conhecer Mais</a>
+                </div>
+
+                <div class="card">
+                    <img class="imagem" src="./imagens/fundo-viagens.jpg" alt="Projeto Viagens">
+                    <h3>Viagens</h3>
+                    <p class="descricao">Os melhores lugares para conhecer belas paisagens e culturas.</p>
+                    <a href="https://samuray16.github.io/atvisgens/" target="_blank" class="btn-link">Conhecer Mais</a>
+                </div>
+
+                <div class="card">
+                    <img class="imagem" src="./imagens/fundo-curriculo.jpg" alt="Projeto Currículo">
+                    <h3>Currículo</h3>
+                    <p class="descricao">Meu currículo com minhas habilidades e dados pessoais.</p>
+                    <a href="https://samuray16.github.io/atcurriculo/" target="_blank" class="btn-link">Conhecer Mais</a>
+                </div>
+            </div>
+        </section> 
+    </main>
 
 </body>
-</html>   
+</html>
